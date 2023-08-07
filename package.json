@@ -1,0 +1,22 @@
+{
+  "name": "node-tsx-starter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev:start": "tsx src/index.ts",
+    "dev:watch": "tsx --watch src/index.ts",
+    "build": "tsc",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.1",
+    "@types/node": "^20.4.8",
+    "prettier": "^3.0.1",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
